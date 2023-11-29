@@ -1,0 +1,2 @@
+#Ignore all files in the output directory because they are generated files and therefore may change frequently
+output/
