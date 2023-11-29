@@ -5,3 +5,4 @@ grep -o '[0-9]\+' README.md | sort -n > output/sorted-numbers.txt
 sed -n '/^# FEATURES/,/^#/p' README.md | grep -v '^#' | tr '
 ' ' ' > output/features-summary.txt
 grep "Calculator" README.md | sort -r > output/calculator-lines.txt
+cat output/*.txt
